@@ -272,6 +272,7 @@ if (
   console.log("light mode");
   styles = styles_light;
 }
+
 // Render
 // ---------
 const app = document.getElementById("app")!;
@@ -282,8 +283,8 @@ function render(data: { todos: Todo[] }): void {
 
   const { todos } = data;
 
-  // TODO: Add a theme toggle
   const containerHTML = `
+    <title>Todolist App</title>
     <div style="${styles.container}">
       <div style="${styles.header}">todos</div>
       ${TodoForm()}
