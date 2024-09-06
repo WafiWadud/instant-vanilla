@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build --assetsDir . --minify false",
+    "build": "tsc && vite build --assetsDir .",
     "preview": "tsc && vite preview"
   },
   "devDependencies": {
